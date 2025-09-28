@@ -99,6 +99,7 @@ $autoload['models'] = array('UsersModel');
 |  Auto-load Config files
 | -------------------------------------------------------------------
 | Prototype:
+
 |
 |	$autoload['configs'] = array('config1', 'config2');
 |
