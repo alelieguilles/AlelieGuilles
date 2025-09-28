@@ -6,10 +6,10 @@
   <title>Students Info</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-/* Background with gradient + subtle floating blobs */
+/* Background with gradient brown tones */
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(135deg, #1a237e, #4a148c, #880e4f);
+  background: linear-gradient(135deg, #3e2723, #5d4037, #795548);
   background-size: 300% 300%;
   animation: gradientShift 12s ease infinite;
   min-height: 100vh;
@@ -36,12 +36,12 @@ table, .btn-create, .search-form .form-control, .pagination a, .pagination stron
 /* Header */
 h1 {
   text-align: center;
-  color: #ffca28;
+  color: #ffcc80;
   margin-bottom: 40px;
   font-size: 42px;
   font-weight: 800;
   letter-spacing: 1.5px;
-  text-shadow: 0 2px 10px rgba(0,0,0,0.4);
+  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
 }
 
 /* Search Form */
@@ -55,15 +55,16 @@ h1 {
 .search-form .form-control {
   color: #fff;
   border-radius: 10px;
+  background: rgba(255,255,255,0.1);
 }
 
 .search-form .form-control::placeholder {
-  color: #cfcfcf;
+  color: #d7ccc8;
 }
 
 .search-form .btn-search {
-  background: linear-gradient(45deg, #ffca28, #f57c00);
-  color: #212121;
+  background: linear-gradient(45deg, #a1887f, #6d4c41);
+  color: #fff;
   font-weight: 600;
   border-radius: 10px;
   padding: 10px 18px;
@@ -72,7 +73,7 @@ h1 {
 }
 
 .search-form .btn-search:hover {
-  background: linear-gradient(45deg, #ffa000, #e65100);
+  background: linear-gradient(45deg, #8d6e63, #4e342e);
   transform: translateY(-2px);
 }
 
@@ -88,7 +89,7 @@ table {
 
 th {
   background: rgba(255, 255, 255, 0.2);
-  color: #ffeb3b;
+  color: #ffe082;
   padding: 16px;
   font-size: 14px;
   font-weight: 700;
@@ -126,7 +127,7 @@ a.action-btn {
 }
 
 a.action-btn.update {
-  background: linear-gradient(45deg, #4caf50, #2e7d32);
+  background: linear-gradient(45deg, #8bc34a, #558b2f);
   color: white;
 }
 
@@ -149,7 +150,7 @@ a.action-btn.delete:hover {
 .btn-create {
   display: inline-block;
   padding: 14px 24px;
-  background: linear-gradient(45deg, #2196f3, #1565c0);
+  background: linear-gradient(45deg, #a1887f, #6d4c41);
   color: #fff !important;
   border-radius: 10px;
   font-weight: 700;
@@ -160,7 +161,7 @@ a.action-btn.delete:hover {
 }
 
 .btn-create:hover {
-  background: linear-gradient(45deg, #42a5f5, #0d47a1);
+  background: linear-gradient(45deg, #8d6e63, #4e342e);
   transform: translateY(-3px) scale(1.02);
 }
 
@@ -185,8 +186,8 @@ a.action-btn.delete:hover {
 }
 
 .pagination strong {
-  background: #ffca28 !important;
-  color: #212121 !important;
+  background: #ffcc80 !important;
+  color: #3e2723 !important;
   font-weight: bold;
 }
   </style>
